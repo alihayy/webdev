@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row text-center ">
+        <div class="col-md-12 pt-5 ">
+            <h1 class="text-primary pt-5">Welcome To My Profile</h1><br>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About me </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Hobbies </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+        <div class="col-md-6 pt-5 bg-secondary text-white pb-5" >
+            <main>
+                <section id="about">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    <h2>About Me</h2>
+                    <p>Hello! My name is Aliha Tariq <br>
+                I am doing software Engineering <br>
+                 I'm passionate about web development and love to create beautiful and functional websites.</p>
+                </section></div>
+                <div class="col-md-6 pt-5 bg-secondary bg-light pb-5">
+                <section id="hobbies">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrkhz8YWv4-k7d5iltCZEXpLCyZofCnKygg&s" alt="" >
+                    <h2>Hobbies</h2>
+                    <p>In my free time, I enjoy making reels <br>
+                         Reading Books <br>
+                        playing the guitar etc</p>
+                    </div>
+                </section 
+                   
+                    <div class="col-md-12">
+                        <footer class="text-center py-4">
+                            <section id="contact">
+                              <h2>Contact</h2>
+                              <p>You can reach me at: <a href="mailto:alihayy-gmail.com" class="text-primary">alihayy@gmail.com</a></p>
+                            </section>
+                          </footer>
+                    </div>
+            </main>
+
+        </div>
+    </div>
+</body>
+</html>
